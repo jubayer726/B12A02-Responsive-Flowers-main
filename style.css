@@ -252,3 +252,22 @@ line-height: 0px;
 .footer-icon img{
   padding-right: 24px;
 }
+
+/* Responsive for Mobile devices */
+@media screen and (max-width: 576px) {
+  .home, .shop{
+    display: none;
+  }
+  .banner-section{
+    flex-direction: column-reverse;
+  }
+  .card-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  }
+.plant-lover-section{
+  flex-direction: column;
+  margin: 40px 0px;
+}
+}
