@@ -216,6 +216,22 @@ line-height: 0px;
   font-weight: bold;
   color: #FFFFFF;
 }
+.input-email{
+  width: 644px;
+  height: 45px;
+  padding-left: 20px;
+  margin: 0px;
+}
+.subscribe-btn{
+  width: 186px;
+  height: 48px;
+  margin: -5px;
+  background-color: #E95A08;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
 
 /* Footer Section */
 .footer{
