@@ -21,6 +21,17 @@
   max-width: 1240px;
   margin: 0px auto;
 }
+
+.banner-description{
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5); 
+}
+.fresh-flowers{
+  color: #E95A08;
+}
+
+/* Navbar section */
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -46,31 +57,22 @@ text-decoration: none;
   color: #000000;
 }
 
-/* Hero Section */
-.hero-section{
+/* Banner Section */
+.banner-section{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 106px;
   margin-top: 120px;
 }
-.hero-title{
+.banner-title{
   font-size: 65px;
   font-weight: bold;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-.fresh-flowers{
-  color: #E95A08;
-  
-}
-.hero-description{
-  font-size: 22px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5); 
-}
 
-/* Card Section */
+/* Plants Section */
 .card-header{
   text-align: center;
   margin-top: 120px;
@@ -106,4 +108,107 @@ text-decoration: none;
   font-size: 16px;
   padding: 19px 80px;
   border: none;
+}
+
+/* Plant Lover Section */
+.plant-lover-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 210px;
+  gap: 60px;
+}
+.shop-title{
+  font-size: 50px;
+  font-weight: bold;
+}
+/* .trusted-badge{
+  width: 286px;
+  height: 286px;
+} */
+
+/* Latest Deal Section */
+.deal-section{
+  
+}
+.deal-title_subtitle{
+text-align: center;
+margin-top: 133px;
+}
+.deal-title{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Deal Card Section */
+.deal-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px 0px;
+}
+.left-top-card{
+  background-image: url(./Images/deal-bloom.png);  
+  border-radius: 14px;
+  background-size: cover;
+  width: 405px;
+  height: 200px;
+}
+.left-buttom-card{
+  background-image: url(./Images/deal-ana.png);
+  border-radius: 14px;
+  background-size: cover;
+  width: 405px;
+  height: 200px;
+}
+.right-side-card{
+  background-image: url(./Images/deal-zabo.png);
+  color: #FFFFFF;
+  border-radius: 22px;
+  text-align: center;
+  background-size: cover;
+  width: 805px;
+  height: 435px;
+  margin-top: 20px;
+}
+.card-text{
+color: #FFFFFF;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+}
+.card-text-2{
+color: #FFFFFF;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+}
+.right-side-card h4{
+  font-size: 40px;
+  font-weight: bold;
+}
+.right-side-card h5{
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/* Join Section */
+.join-section{
+  background-image: url(./Images/news-letter-bg.png);
+  width: 100%;
+  height: 553px;
+  background-size: cover;
+  text-align: center;
+}
+.join-section h2{
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/* Footer Section */
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
