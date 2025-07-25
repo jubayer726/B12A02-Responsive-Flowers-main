@@ -269,5 +269,34 @@ line-height: 0px;
 .plant-lover-section{
   flex-direction: column;
   margin: 40px 0px;
+  }
+  .deal-card{
+    flex-direction: column;
+  }
+  .left-top-card, 
+  .left-buttom-card,
+  .right-side-card
+  {
+    width: 360px;
+    height: 185px;
+  }
+  .right-side-card h4{
+  font-size: 20px;
+  }
+  .right-side-card h5{
+  font-size: 16px;
+  }
+  .input-email{
+  width: 218px;
+  height: 45px;
+}
+.subscribe-btn{
+  width: 103px;
+  height: 48px;
+  margin-top: 10px;
+}
+.footer{
+  flex-direction: column;
+  margin: 10px;
 }
 }
