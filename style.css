@@ -122,10 +122,17 @@ text-decoration: none;
   font-size: 50px;
   font-weight: bold;
 }
-/* .trusted-badge{
+.trusted-badge img{
   width: 286px;
   height: 286px;
-} */
+  
+}
+.trusted-badge{
+position: absolute;
+bottom: -1510px;
+right: 810px;
+
+}
 
 /* Latest Deal Section */
 .deal-section{
@@ -269,6 +276,9 @@ line-height: 0px;
 .plant-lover-section{
   flex-direction: column;
   margin: 40px 0px;
+  }
+  .trusted-badge{
+    display: none;
   }
   .deal-card{
     flex-direction: column;
